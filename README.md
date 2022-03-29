@@ -13,7 +13,6 @@ The UI is more aligned with an actual application with CURD. However, since the 
 
 1. For all contacts, the name can be duplicated.
 2. For the contacts in each book, the name must be unique.
-
 3. If we view the contacts in each book, the `Unique` field means whether the contact is only available in current book.
 4. The descriptions of contacts are optional.
 
