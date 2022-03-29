@@ -1,10 +1,31 @@
-# Getting Started with Create React App
+# Getting Started with Address Book Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The UI is more aligned with an actual application with CURD. However, since the time is limited, only the create features and view features are implemented.
 
-## Available Scripts
+## Assumption
 
-In the project directory, you can run:
+#### Book
+
+1. The names of books are all unique with 1-100 chars.
+2. The descriptions of books are optional.
+
+#### Contact
+
+1. For all contacts, the name can be duplicated.
+2. For the contacts in each book, the name must be unique.
+
+3. If we view the contacts in each book, the `Unique` field means whether the contact is only available in current book.
+4. The descriptions of contacts are optional.
+
+## Front end
+
+This front end application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+In the `Address Book`, you can run:
+
+### `npm install`
+
+Install all the dependencies.
 
 ### `npm start`
 
@@ -39,8 +60,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Back end
+
+The database used in this application is mongoDB, so make sure it is installed locally if you want to run this application on the localhost.
+
+In the `backend`, you can run:
+
+### `npm install`
+
+Install all the dependencies.
+
+### `nodemon app.js`
+
+Runs the app in the development mode.\
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
+
