@@ -1,0 +1,51 @@
+.address_book {
+    padding: 50px;
+
+    .ant-card {
+        height: 250px;
+        overflow: hidden;
+        background-color: #FCFBCF;
+        position: relative;
+
+        .ant-card-head {
+            background-color: #AD9A8B;
+        }
+
+        .ant-card-body {
+            height: auto;
+        }
+
+        .ant-card-actions{
+            :hover {
+                svg {
+                    color: #6B1908;
+                }
+            }
+
+            background-color: #FFEDD7;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+
+            svg {
+                color: red;
+            }
+        }
+    }
+
+    .addCard {
+        :hover {
+            background-color: #D7B8B3;
+        }
+
+        text-align: center;
+        line-height: 250px;
+        background-color: #FFDADA;
+        
+        svg {
+            height: 80px;
+            width: 80px;
+            color: darkgray;
+        }
+    }
+}

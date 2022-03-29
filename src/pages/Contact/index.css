@@ -1,0 +1,5 @@
+.contact .btn_group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
