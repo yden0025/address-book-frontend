@@ -13,8 +13,11 @@ The UI is more aligned with an actual application with CURD. However, since the 
 
 1. For all contacts, the name can be duplicated.
 2. For the contacts in each book, the name must be unique.
-3. If we view the contacts in each book, the `Unique` field means whether the contact is only available in current book.
-4. The descriptions of contacts are optional.
+3. There is no more than one contact share with the same name. (Since it is the application mainly for personal use. We can assume that each name represent an identical friend of the user.)
+4. One contact can have multiple phone numbers, but one phone number can only belong to one contact.
+5. There is no records in the database with same name and same phone number.
+6. If we view the contacts in each book, the `Unique` field means whether the contact is only available in current book.
+7. The descriptions of contacts are optional.
 
 ## Front end
 
